@@ -1,4 +1,4 @@
-# Firebase Blog App (Next.ts)
+# Firebase Blog App (Next.ts) - https://nextblog-2srd.onrender.com/
 
 Це простий блог-додаток, створений на базі **Next.js App Router**, з використанням **Firebase Firestore** для збереження постів і **Redux Toolkit** для управління станом.
 
