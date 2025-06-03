@@ -46,14 +46,15 @@
 
 ### Варто зауважити, що перед запуском у вас має бути налаштований файл ".env.local" з такою структурою:
 
+```env
 NEXT_PUBLIC_FIREBASE_API_KEY=
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
-NEXT_PUBLIC_FIREBASE_DATABASE_URL=
 NEXT_PUBLIC_FIREBASE_PROJECT_ID=
 NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
 NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
 NEXT_PUBLIC_FIREBASE_APP_ID=
 NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=
-```bash
-npm i - встановити залежності проекту
-npm run dev - запустити додаток в режимі розробника
+NEXT_PUBLIC_FIREBASE_DATABASE_URL=
+
+npm i # встановити залежності проекту
+npm run dev # запустити додаток в режимі розробника
